@@ -1,0 +1,60 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Local editor and tooling state
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment, secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Dependency and build folders
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Local backups and internal documentation accidentally copied into the site
+backups/
+backup*/
+docs/
+_documentation_interne_site/
+
+# Sensitive REPAF working files must stay outside this repository
+*CONFIDENTIEL*
+*Confidentiel*
+*confidentiel*
+*CONTACT*
+*CONTACTS*
+*Contacts*
+*contacts*
+*CRM*
+*crm*
+*COMPTES*
+*Comptes*
+*comptes*
+*PERSONNES*
+*Personnes*
+*personnes*
+*.xlsx
+*.xls
+*.doc
+*.docx
+*.pdf

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Site REPAF en préparation : indexation interdite.
